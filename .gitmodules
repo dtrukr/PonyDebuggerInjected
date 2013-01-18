@@ -1,0 +1,3 @@
+[submodule "PonyDebugger"]
+	path = PonyDebugger
+	url = git://github.com/square/PonyDebugger.git
