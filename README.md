@@ -45,7 +45,7 @@ Finally, start / restart the App you want to test and open PonyDebugger Server U
 
 Once the an app is started we can connect to PonyDebugger and inspect the app:
 
-[http://biudvikling.dk/images/ponydebugger/pony1-small.png](App Inspection)
+![App Inspection](http://biudvikling.dk/images/ponydebugger/pony1-small.png)
 
 ### How to uninstall
 
