@@ -1,0 +1,13 @@
+Package: com.open.PonyDebuggerInjected
+Name: PonyDebuggerInjected
+Version: 1.0-1
+Description: 
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: Den
+dev: 
+Homepage: https://github.com/dtrukr/PonyDebuggerInjected
