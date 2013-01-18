@@ -70,7 +70,7 @@ The following PonyDebugger features can be used for debugging 3rd party apps inj
 
 ## PonyDebugger Extensions for Advanced Debugging
 
-The following extensions are currently a work in progress.
+The following extensions are currently a work in progress / not available in public branch.
 
 # Runtime Object Browser
 
