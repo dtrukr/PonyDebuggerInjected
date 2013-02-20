@@ -19,6 +19,11 @@ static void PreferenceChangedPostedNotification(CFNotificationCenterRef center, 
 
 CHConstructor // code block that runs immediately upon load
 {
+	// Don't load in SpringBoard to avoid crash
+	if([[[NSBundle mainBundle] bundleIdentifier] isEqualToString:@"com.apple.springboard"]) {
+		return;
+	}
+	
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
     
 	[PonyDebuggerInjectedController sharedInstance];
