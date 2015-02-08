@@ -1,0 +1,28 @@
+entry = {
+  bundle = AppList;
+  cell = PSLinkCell;
+  icon = "/Library/PreferenceLoader/Preferences/PonyDebuggerInjected.png";
+  isController = 1;
+  label = PonyDebuggerInjected;
+  ALSettingsPath = "/var/mobile/Library/Preferences/com.daapps.PonyDebuggerInjected.plist";
+  ALSettingsKeyPrefix = "PonyDebuggerInjectedEnabled-";
+  ALChangeNotification = "com.daapps.PonyDebuggerInjected.settingschanged";
+  ALSettingsDefaultValue = 0;
+  ALSectionDescriptors = (
+  	{
+  	  title = "System Applications";
+  	  predicate = "(isSystemApplication = TRUE)";
+  	  "cell-class-name" = "ALSwitchCell";
+  	  "icon-size" = 29;
+  	  "suppress-hidden-apps" = 1;
+  	},
+  	{
+  	  title = "User Applications";
+  	  predicate = "(isSystemApplication = FALSE)";
+  	  "cell-class-name" = "ALSwitchCell";
+  	  "icon-size" = 29;
+  	  "suppress-hidden-apps" = 1;
+  	  "footer-title" = "© 2010-2013 Dennis Torbichuk\n© 2013 Square Inc.";
+  	}
+  );
+};
